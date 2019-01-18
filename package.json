@@ -1,6 +1,6 @@
 {
   "name": "node-tesseract",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Desmond Morris <hi@desmondmorris.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
   "main": "index.js",
@@ -29,6 +29,6 @@
   },
   "license": "MIT",
   "engine": {
-    "node": ">=0.6"
+    "node": ">=6.0"
   }
 }

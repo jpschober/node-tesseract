@@ -53,6 +53,7 @@ tesseract.process(__dirname + '/path/to/image.jpg', options, function(err, text)
 ```
 
 ## Changelog
+* **0.3.1**: Added Promise support: Process returns a Promise if no callback is given.
 * **0.3.0**: Made code compatible with Tesseract 4.0. This is now the minimum supported version.
 * **0.2.7**: Adds output file extension detection
 * **0.2.6**: Catches exception when deleting tmp files that do not exist
